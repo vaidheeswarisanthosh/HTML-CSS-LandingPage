@@ -1,0 +1,78 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+
+.nav-bar{
+    display:flex;
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    justify-content: space-between;
+    padding:20px;
+    color:whitesmoke;
+    
+    
+}
+.nav-bar ul{
+    list-style: none;
+}
+.nav-bar .nav-links{
+        display:flex;
+        align-items: center;
+        cursor: pointer;
+        
+
+}
+.nav-bar .nav-links li{
+    margin:0 30px;
+}
+
+header{
+    width:100vw;
+    height:100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(adventureimg.jpeg);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: flex-end;
+}
+.header-content{
+    text-align: center;
+    color:white;
+    margin-bottom:150px;
+}
+header-content h2{
+          font-size: 4vmin;
+}
+a{
+    text-decoration: none;
+    
+}
+.line{
+    width: 150px;
+    height:4px;
+    background:#fc036b;
+    margin:10px auto;
+    border-radius: 5px;
+}
+
+.header-content h1{
+    font-size: 7vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.ctn{
+    background-color:#fc036b;
+    padding:8px 15px;
+    border-radius: 30px;
+    color:whitesmoke;
+}
+}
+ 
+
+ 
